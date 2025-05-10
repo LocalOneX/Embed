@@ -1,6 +1,8 @@
 # Embed
 discord embed builder
 
+works the best with https://github.com/LocalOneX/SecureWebhook/blob/main/SecureWebhook.lua
+
 example:
 ```lua
 local embed = require(script.Parent)
