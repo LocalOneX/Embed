@@ -27,7 +27,7 @@
 				self:Then(callback: function)
 			
 			SecureWebhook; make sure to have this in your game for the best experience
-			--- https://github.com/LocalOneX/bigcopies/blob/main/SecureWebhook.luau
+			--- https://github.com/LocalOneX/SecureWebhook/blob/main/SecureWebhook.lua
 			
 		
 		creates a embed instance
@@ -233,7 +233,7 @@ local Pyf; do
 end  
 
 --- initialize SecureWebhook
---- https://github.com/LocalOneX/bigcopies/blob/main/SecureWebhook.luau
+---  
 local SecureWebhook; do
 	if script.Parent.Name == "SecureWebhook" then
 		SecureWebhook = require(script.Parent)
